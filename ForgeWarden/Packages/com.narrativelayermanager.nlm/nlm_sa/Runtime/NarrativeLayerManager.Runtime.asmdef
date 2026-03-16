@@ -1,0 +1,7 @@
+{
+    "name": "NarrativeLayerManager.Runtime",
+    "rootNamespace": "NarrativeLayerManager",
+    "references": [],
+    "includePlatforms": [],
+    "autoReferenced": true
+}

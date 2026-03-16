@@ -1,0 +1,20 @@
+{
+  "name": "LiveGameDev.ESS.Editor",
+  "rootNamespace": "LiveGameDev.ESS.Editor",
+  "references": [
+    "LiveGameDev.Core.Runtime",
+    "LiveGameDev.Core.Editor",
+    "LiveGameDev.ESS.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

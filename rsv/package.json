@@ -1,0 +1,33 @@
+{
+  "name": "com.forgegames.livegamedev.rsv",
+  "version": "1.0.1",
+  "displayName": "ForgeWarden — Runtime Schema Validator",
+  "description": "Validates server-driven JSON data against Unity-side schemas during Editor and Play Mode. Supports JSON Schema Draft 7 / 2020-12 import and export.",
+  "unity": "6000.0",
+  "unityRelease": "0f1",
+  "keywords": [
+    "mmorpg",
+    "json",
+    "schema",
+    "validation",
+    "live game",
+    "data-driven",
+    "editor tools"
+  ],
+  "category": "Editor Extensions",
+  "author": {
+    "name": "Forge Games",
+    "url": "https://github.com/forgegames"
+  },
+  "dependencies": {
+    "com.forgegames.livegamedev.core": "1.0.0",
+    "com.unity.nuget.newtonsoft-json": "3.0.2"
+  },
+  "samples": [
+    {
+      "displayName": "Demo: Ability Schema",
+      "description": "Example schema, binding, and JSON for an ability system with runtime loader.",
+      "path": "Samples~/Demo_AbilitySchema"
+    }
+  ]
+}

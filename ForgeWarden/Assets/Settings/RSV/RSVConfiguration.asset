@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcbcb524ae642ea4ba66726949b99f91, type: 3}
+  m_Name: RSVConfiguration
+  m_EditorClassIdentifier: LiveGameDev.RSV.Editor::LiveGameDev.RSV.Editor.RsvConfigurationAsset
+  maxRemoteResponseSizeMB: 10
+  maxLocalFileSizeMB: 100
+  streamingThresholdMB: 10
+  maxNestingDepth: 20
+  maxSchemaNodes: 10000
+  maxEnumValues: 1000
+  schemaCacheDurationMinutes: 30
+  urlCacheDurationMinutes: 5
+  maxSchemaCacheSize: 1000
+  maxUrlCacheSize: 100
+  cacheCleanupIntervalMinutes: 10
+  httpTimeoutSeconds: 30
+  maxHttpRetries: 3
+  httpRetryInitialDelaySeconds: 1
+  maxHistoryEntries: 1000
+  historyFilePath: Library/RSV/ValidationHistory.json
+  defaultParallelismRatio: 0.75
+  urlWhitelist: 
+  urlBlacklist: 
+  regexTimeoutSeconds: 5
+  autoSave: 1
+  autoSaveDelaySeconds: 1

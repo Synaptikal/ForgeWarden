@@ -1,0 +1,19 @@
+{
+  "name": "LiveGameDev.RSV.Editor",
+  "rootNamespace": "LiveGameDev.RSV.Editor",
+  "references": [
+    "LiveGameDev.Core.Runtime",
+    "LiveGameDev.Core.Editor",
+    "LiveGameDev.RSV.Runtime",
+    "Unity.NuGet.Newtonsoft-Json"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "noEngineReferences": false
+}

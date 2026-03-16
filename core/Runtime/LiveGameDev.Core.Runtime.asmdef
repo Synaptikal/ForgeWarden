@@ -1,0 +1,16 @@
+{
+  "name": "LiveGameDev.Core.Runtime",
+  "rootNamespace": "LiveGameDev.Core",
+  "references": [
+    "Unity.NuGet.Newtonsoft-Json"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

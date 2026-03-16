@@ -1,0 +1,21 @@
+{
+    "name": "LiveGameDev.ZDHG.EditorTests",
+    "rootNamespace": "LiveGameDev.ZDHG.Tests",
+    "references": [
+        "LiveGameDev.Core.Runtime",
+        "LiveGameDev.ZDHG.Runtime",
+        "LiveGameDev.ZDHG.Editor",
+        "Unity.Burst",
+        "Unity.Jobs",
+        "Unity.Collections",
+        "Unity.Mathematics",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": ["nunit.framework.dll"],
+    "autoReferenced": false
+}

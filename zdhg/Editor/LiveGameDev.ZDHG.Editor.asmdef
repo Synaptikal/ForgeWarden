@@ -1,0 +1,20 @@
+{
+    "name": "LiveGameDev.ZDHG.Editor",
+    "rootNamespace": "LiveGameDev.ZDHG.Editor",
+    "references": [
+        "LiveGameDev.Core.Runtime",
+        "LiveGameDev.Core.Editor",
+        "LiveGameDev.ZDHG.Runtime",
+        "Unity.AI.Navigation",
+        "Unity.Burst",
+        "Unity.Collections",
+        "Unity.EditorCoroutines.Editor",
+        "Unity.Jobs",
+        "Unity.Mathematics"
+    ],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "autoReferenced": false
+}

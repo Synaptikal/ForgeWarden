@@ -1,0 +1,7 @@
+{
+    "name": "NarrativeLayerManager.Editor",
+    "rootNamespace": "NarrativeLayerManager.Editor",
+    "references": ["GUID:NarrativeLayerManager.Runtime"],
+    "includePlatforms": ["Editor"],
+    "autoReferenced": false
+}

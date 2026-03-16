@@ -1,0 +1,33 @@
+{
+  "name": "com.forgegames.livegamedev.ess",
+  "version": "2.0.2",
+  "displayName": "ForgeWarden — Economy Simulation Sandbox",
+  "description": "Simulates player-driven economies with auction house price discovery, crafting dependency graphs, and individual player agent AI. Detect inflation, deflation, and balance failures before launch.",
+  "unity": "6000.0",
+  "unityRelease": "0f1",
+  "keywords": [
+    "mmorpg",
+    "economy",
+    "simulation",
+    "inflation",
+    "balance",
+    "auction house",
+    "crafting",
+    "live game"
+  ],
+  "category": "Editor Extensions",
+  "author": {
+    "name": "Forge Games",
+    "url": "https://github.com/forgegames"
+  },
+  "dependencies": {
+    "com.forgegames.livegamedev.core": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Demo: Economy Baseline",
+      "description": "15 items, 8 sources, 6 sinks, 3 player profiles, 5 crafting recipes. Find the inflation bug!",
+      "path": "Samples~/Demo_EconomyBaseline"
+    }
+  ]
+}

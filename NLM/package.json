@@ -1,0 +1,38 @@
+{
+  "name": "com.narrativelayermanager.nlm",
+  "version": "1.0.1",
+  "displayName": "Narrative Layer Manager",
+  "description": "Preview your scenes at any story beat, quest flag, or game phase — without entering Play Mode. Scrub a timeline of narrative beats, detect binding conflicts, and compare beat-to-beat object diffs. Zero external dependencies.",
+  "unity": "6000.0",
+  "unityRelease": "0f1",
+  "type": "tool",
+  "keywords": [
+    "narrative",
+    "story",
+    "quest",
+    "scene",
+    "preview",
+    "conditions",
+    "beats",
+    "timeline",
+    "state",
+    "visualization"
+  ],
+  "category": "Editor Extensions",
+  "author": {
+    "name": "Narrative Layer Manager Team",
+    "email": "support@narrativelayermanager.com",
+    "url": "https://github.com/narrativelayermanager"
+  },
+  "dependencies": {},
+  "samples": [
+    {
+      "displayName": "Demo: Three-Act Story",
+      "description": "A complete three-act narrative scene with 8 bound objects, 5 beats, and pre-built conflicts to demonstrate the NLM workflow.",
+      "path": "Samples~/Demo_ThreeAct"
+    }
+  ],
+  "documentationUrl": "https://github.com/narrativelayermanager/documentation",
+  "changelogUrl": "https://github.com/narrativelayermanager/releases",
+  "licensesUrl": "https://github.com/narrativelayermanager/LICENSE.md"
+}

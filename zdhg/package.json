@@ -1,0 +1,29 @@
+{
+  "name": "com.forgegames.livegamedev.zdhg",
+  "version": "1.0.1",
+  "displayName": "ForgeWarden — Zone Density Heatmap Generator",
+  "description": "Generates pre-launch visual density maps from spawn points, NavMesh, and static object data. Uses Unity Job System and Burst Compiler for sub-3-second generation on maps up to 10km².",
+  "unity": "6000.0",
+  "unityRelease": "0f1",
+  "keywords": ["mmorpg", "heatmap", "spawn", "navmesh", "zone", "density", "level design"],
+  "category": "Editor Extensions",
+  "author": {
+    "name": "Forge Games",
+    "url": "https://github.com/forgegames"
+  },
+  "dependencies": {
+    "com.forgegames.livegamedev.core": "1.0.0",
+    "com.unity.ai.navigation": "2.0.0",
+    "com.unity.burst": "1.8.19",
+    "com.unity.collections": "2.5.1",
+    "com.unity.editorcoroutines": "1.0.0",
+    "com.unity.mathematics": "1.3.2"
+  },
+  "samples": [
+    {
+      "displayName": "Demo: Zone Setup",
+      "description": "Sample scene with NavMesh, spawn points, and zone definitions.",
+      "path": "Samples~/Demo_ZoneSetup"
+    }
+  ]
+}

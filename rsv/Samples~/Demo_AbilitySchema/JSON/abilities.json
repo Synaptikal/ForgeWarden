@@ -1,0 +1,22 @@
+{
+  "abilities": [
+    {
+      "id": "ability_fireball",
+      "name": "Fireball",
+      "damage": 120,
+      "manaCost": 45,
+      "cooldownSeconds": 8.5,
+      "targetType": "Enemy",
+      "aoeRadius": 5.0
+    },
+    {
+      "id": "ability_heal",
+      "name": "Healing Wave",
+      "damage": 0,
+      "manaCost": 30,
+      "cooldownSeconds": 4.0,
+      "targetType": "Ally",
+      "aoeRadius": 0.0
+    }
+  ]
+}

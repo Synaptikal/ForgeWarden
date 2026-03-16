@@ -1,0 +1,27 @@
+.zdhg-toolbar {
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 8px;
+    background-color: rgba(0,0,0,0.12);
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0,0,0,0.2);
+}
+
+.zdhg-panel {
+    flex-direction: column;
+    padding: 8px;
+    border-right-width: 1px;
+    border-right-color: rgba(0,0,0,0.15);
+}
+
+.zdhg-panel-header {
+    font-size: 12px;
+    -unity-font-style: bold;
+    margin-bottom: 6px;
+}
+
+.zdhg-layer-row {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4px;
+}

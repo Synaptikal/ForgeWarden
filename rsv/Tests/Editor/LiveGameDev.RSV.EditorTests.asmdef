@@ -1,0 +1,19 @@
+{
+    "name": "LiveGameDev.RSV.EditorTests",
+    "rootNamespace": "LiveGameDev.RSV.Tests",
+    "references": [
+        "LiveGameDev.Core.Runtime",
+        "LiveGameDev.Core.Editor",
+        "LiveGameDev.RSV.Runtime",
+        "LiveGameDev.RSV.Editor",
+        "Unity.NuGet.Newtonsoft-Json",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": ["nunit.framework.dll", "Newtonsoft.Json.dll"],
+    "autoReferenced": false
+}

@@ -1,0 +1,23 @@
+{
+  "name": "LiveGameDev.ESS.EditorTests",
+  "rootNamespace": "LiveGameDev.ESS.Tests",
+  "references": [
+    "LiveGameDev.Core.Runtime",
+    "LiveGameDev.ESS.Editor",
+    "LiveGameDev.ESS.Runtime",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner",
+    "nunit.framework"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

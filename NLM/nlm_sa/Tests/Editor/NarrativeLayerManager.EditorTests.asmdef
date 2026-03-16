@@ -1,0 +1,14 @@
+{
+    "name": "NarrativeLayerManager.EditorTests",
+    "rootNamespace": "NarrativeLayerManager.Tests",
+    "references": [
+        "GUID:NarrativeLayerManager.Runtime",
+        "GUID:NarrativeLayerManager.Editor",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": ["Editor"],
+    "overrideReferences": true,
+    "precompiledReferences": ["nunit.framework.dll"],
+    "autoReferenced": false
+}

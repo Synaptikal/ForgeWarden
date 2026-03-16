@@ -1,0 +1,15 @@
+{
+    "name": "LiveGameDev.Core.Tests",
+    "rootNamespace": "LiveGameDev.Core.Tests",
+    "references": [
+        "LiveGameDev.Core.Runtime",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": ["nunit.framework.dll"],
+    "autoReferenced": false
+}
