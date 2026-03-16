@@ -114,7 +114,7 @@ namespace LiveGameDev.RSV.Editor
         /// <summary>
         /// Marks the configuration as dirty, triggering auto-save.
         /// </summary>
-        public void SetDirty()
+        public new void SetDirty()
         {
             _isDirty = true;
             _lastSaveTime = EditorApplication.timeSinceStartup;

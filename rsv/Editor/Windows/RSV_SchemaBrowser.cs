@@ -69,8 +69,8 @@ namespace LiveGameDev.RSV.Editor
                     ((SchemaListItem)el).SetData(_filteredSchemas[i]);
                 }
             };
-            _list.onItemsChosen += OnSchemaSelected;
-            _list.onSelectionChange += OnSelectionChanged;
+            _list.itemsChosen += OnSchemaSelected;
+            _list.selectionChanged += OnSelectionChanged;
             Add(_list);
 
             Refresh();

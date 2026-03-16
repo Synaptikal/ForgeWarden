@@ -47,7 +47,7 @@ namespace LiveGameDev.RSV.Editor
                 selectionType = SelectionType.Single
             };
 
-            listView.onItemsChosen += items =>
+            listView.itemsChosen += items =>
             {
                 foreach (var item in items)
                 {
