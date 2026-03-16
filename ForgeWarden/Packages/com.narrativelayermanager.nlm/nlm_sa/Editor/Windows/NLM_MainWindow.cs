@@ -9,7 +9,8 @@ namespace NarrativeLayerManager.Editor
     /// Narrative Layer Manager — main Editor window.
     /// </summary>
     /// <remarks>
-    /// Open via: Window > Narrative Layer Manager
+    /// Open via: Tools > ForgeWarden > NLM > Narrative Layer Manager
+    ///       or: Window > Narrative Layer Manager
     /// 
     /// <para>3-column layout:</para>
     /// <list type="bullet">
@@ -23,6 +24,7 @@ namespace NarrativeLayerManager.Editor
     /// </remarks>
     public class NLM_MainWindow : EditorWindow
     {
+        [MenuItem("Tools/ForgeWarden/NLM/Narrative Layer Manager", priority = 300)]
         [MenuItem("Window/Narrative Layer Manager", priority = 500)]
         public static void Open()
         {
