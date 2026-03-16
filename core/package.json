@@ -4,7 +4,6 @@
   "displayName": "ForgeWarden — Core",
   "description": "Shared foundational classes for the ForgeWarden suite. Installed automatically as a dependency.",
   "unity": "6000.0",
-  "unityRelease": "0f1",
   "keywords": [
     "mmorpg",
     "live game",
@@ -14,7 +13,7 @@
   "category": "Editor Extensions",
   "author": {
     "name": "Forge Games",
-    "url": "https://github.com/forgegames"
+    "url": "https://github.com/Synaptikal"
   },
   "dependencies": {
     "com.unity.nuget.newtonsoft-json": "3.0.2"

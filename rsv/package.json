@@ -4,7 +4,6 @@
   "displayName": "ForgeWarden — Runtime Schema Validator",
   "description": "Validates server-driven JSON data against Unity-side schemas during Editor and Play Mode. Supports JSON Schema Draft 7 / 2020-12 import and export.",
   "unity": "6000.0",
-  "unityRelease": "0f1",
   "keywords": [
     "mmorpg",
     "json",
@@ -17,7 +16,7 @@
   "category": "Editor Extensions",
   "author": {
     "name": "Forge Games",
-    "url": "https://github.com/forgegames"
+    "url": "https://github.com/Synaptikal"
   },
   "dependencies": {
     "com.forgegames.livegamedev.core": "1.0.0",

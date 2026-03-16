@@ -4,7 +4,6 @@
   "displayName": "ForgeWarden — Economy Simulation Sandbox",
   "description": "Simulates player-driven economies with auction house price discovery, crafting dependency graphs, and individual player agent AI. Detect inflation, deflation, and balance failures before launch.",
   "unity": "6000.0",
-  "unityRelease": "0f1",
   "keywords": [
     "mmorpg",
     "economy",
@@ -18,7 +17,7 @@
   "category": "Editor Extensions",
   "author": {
     "name": "Forge Games",
-    "url": "https://github.com/forgegames"
+    "url": "https://github.com/Synaptikal"
   },
   "dependencies": {
     "com.forgegames.livegamedev.core": "1.0.0"

@@ -8,6 +8,9 @@
 - **RsvRuntimeValidator** — added `MeasureJsonDepth()` pre-parse check to enforce `MaxNestingDepth` before calling `JToken.Parse()`. Previously the depth limit was only applied during schema traversal, making the guard ineffective against deeply nested payloads.
 - **RsvJsonSchemaInterop.ImportFromJson()** — now correctly parses the `"required"` array from imported JSON Schema documents. Previously all imported fields defaulted to `IsRequired = true`, making it impossible to distinguish required from optional fields after import.
 - **RsvSecurityTests** — reduced test payload sizes to realistic security limits (60 000-char strings, 30-deep nesting, 600-item arrays) to prevent memory exhaustion in the test runner.
+- **RsvCacheInvalidationManager** — replaced `System.Threading.Timer` with `EditorApplication.update` + `DateTime` interval check. The timer was firing on ThreadPool threads where Unity APIs (`isPlayingOrWillChangePlaymode`, `isCompiling`) are illegal, causing `[RSV] Cache cleanup failed: get_isPlayingOrWillChangePlaymode can only be called from the main thread` warnings in the console on every cleanup cycle.
+- **RsvConfigurationAsset.SetDirty()** — added `new` keyword (CS0108) to suppress the compiler warning from intentionally hiding `ScriptableObject`'s inherited member.
+- **RSV_SchemaPicker / RSV_SchemaBrowser** — replaced deprecated UI Toolkit `onItemsChosen` and `onSelectionChange` events with the Unity 6 equivalents `itemsChosen` and `selectionChanged` (CS0618).
 
 ## [1.0.0] - 2026-03-12
 ### Added
